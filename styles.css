@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(255, 171, 75);
+  }
+/*h1 {
+    color: black;
+}
+h2 {
+    color: black;
+}
+p {
+    color: black;
+}
+a {
+    color: white;
+}*/
+/* selector por clase*/
+.oscuro {
+    color: white;
+    background: pink;
+}
+.clarito {
+    background: white;
+}
+.subrayado {
+    text-decoration: 
+    underline 2px red;
+}
+.titulo-principal {
+    font-family: 'Merriweather', sans-serif; /* Cambia 'Arial' por el nombre de la fuente que prefieras */
+    font-size: 36px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de fuente */
+    color: #333; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    margin-top: 30px; /* Espaciado superior */
+}
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode p {
+    color: #ffc107;
+}
+.image-container {
+    text-align: center; /* Centrar la imagen horizontalmente */
+    margin: 20px 0; /* Agregar margen superior e inferior para separación */
+}
+
+.image-container img {
+    max-width: 100%; /* Asegurar que la imagen no sea más ancha que su contenedor */
+    border: 2px solid #ccc; /* Agregar un borde a la imagen */
+    border-radius: 5px; /* Agregar esquinas redondeadas al borde */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Agregar sombra a la imagen */
+}
+.responsive-image {
+    width: 100%; /* Ocupará el ancho completo del contenedor */
+    height: 100%; /* Ocupará la altura completa del contenedor */
+    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor sin distorsión */
+}
+.image-description {
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+    color: #666; /* Color de fuente en tono gris */
+    margin-top: 5px; /* Espaciado superior */
+}
