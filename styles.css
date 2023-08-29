@@ -50,3 +50,16 @@ head {
     color: #666; /* Color de fuente en tono gris */
     margin-top: 5px; /* Espaciado superior */
 }
+/* Estilos generales para el botón */
+#toggle-button {
+  font-size: 16px; /* Tamaño de fuente del botón en la computadora */
+  padding: 10px 20px; /* Tamaño de relleno del botón en la computadora */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  #toggle-button {
+    font-size: 18px; /* Tamaño de fuente del botón en dispositivos móviles */
+    padding: 15px 30px; /* Tamaño de relleno del botón en dispositivos móviles */
+  }
+}
