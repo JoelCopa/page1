@@ -5,18 +5,7 @@ body {
 head {
     background-color: rgba(32, 30, 30, 0.871);
 }
-/* selector por clase*/
-.oscuro {
-    color: white;
-    background: pink;
-}
-.clarito {
-    background: white;
-}
-.subrayado {
-    text-decoration: 
-    underline 2px red;
-}
+
 .titulo-principal {
     font-family: 'Merriweather', sans-serif; /* Cambia 'Arial' por el nombre de la fuente que prefieras */
     font-size: 36px; /* Tamaño de fuente */
@@ -28,6 +17,7 @@ head {
 /* Estilos para el modo oscuro */
 .dark-mode {
     background: #ffffff url(locro.png) no-repeat fixed;
+    height: auto;
 }
 
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode p {
