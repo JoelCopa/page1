@@ -36,12 +36,11 @@ a {
 }
 /* Estilos para el modo oscuro */
 .dark-mode {
-    background-color: #121212;
-    color: #ffffff;
+    background: #ffffff url( ../Locro00053Marsala1.png) no-repeat fixed;
 }
 
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode p {
-    color: #ffc107;
+    color: #ffffff;
 }
 .image-container {
     text-align: center; /* Centrar la imagen horizontalmente */
