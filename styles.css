@@ -1,5 +1,5 @@
 body {
-    background: #ffffff url( ../sarten.jpg) no-repeat fixed;
+    background: #ffffff url(sarten.jpg) no-repeat fixed;
     background-size: cover;
   }
 /*h1 {
@@ -36,7 +36,7 @@ a {
 }
 /* Estilos para el modo oscuro */
 .dark-mode {
-    background: #ffffff url( ../locro.png) no-repeat fixed;
+    background: #ffffff url(locro.png) no-repeat fixed;
 }
 
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode p {
