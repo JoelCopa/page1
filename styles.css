@@ -63,3 +63,20 @@ head {
     padding: 15px 30px; /* Tamaño de relleno del botón en dispositivos móviles */
   }
 }
+/* Estilos para enlaces que parecen botones */
+.button-link {
+  display: inline-block; /* Mostrar como bloque en línea */
+  padding: 10px 20px; /* Tamaño de relleno */
+  background-color: #ffffff; /* Fondo blanco */
+  color: #0099ff; /* Color de fuente azul */
+  text-decoration: none; /* Sin subrayado */
+  border: 2px solid #0099ff; /* Borde azul */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-bottom: 10px; /* Agregar margen inferior entre los botones */
+}
+
+/* Cambiar el color al pasar el mouse */
+.button-link:hover {
+  background-color: #0099ff; /* Fondo azul al pasar el mouse */
+  color: #ffffff; /* Color de fuente blanco al pasar el mouse */
+}
