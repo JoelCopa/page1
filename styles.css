@@ -5,7 +5,12 @@ body {
 head {
     background-color: rgba(32, 30, 30, 0.871);
 }
-
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    margin: 10px;
+  }
+}
 .titulo-principal {
     font-family: 'Merriweather', sans-serif; /* Cambia 'Arial' por el nombre de la fuente que prefieras */
     font-size: 36px; /* Tamaño de fuente */
