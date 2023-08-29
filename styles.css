@@ -22,7 +22,8 @@ head {
 /* Estilos para el modo oscuro */
 .dark-mode {
     background: #ffffff url(locro.png) no-repeat fixed;
-    height: auto;
+    background-size: cover;
+    background-position: center;
 }
 
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode p {
