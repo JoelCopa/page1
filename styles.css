@@ -36,7 +36,7 @@ a {
 }
 /* Estilos para el modo oscuro */
 .dark-mode {
-    background: #ffffff url( ../Locro00053Marsala1.png) no-repeat fixed;
+    background: #ffffff url( ../locro.png) no-repeat fixed;
 }
 
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode p {
