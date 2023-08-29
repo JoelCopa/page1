@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(255, 171, 75);
+    background: #ffffff url( ../sarten.jpg) no-repeat fixed;
+    background-size: cover;
   }
 /*h1 {
     color: black;
