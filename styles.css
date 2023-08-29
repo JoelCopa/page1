@@ -2,18 +2,9 @@ body {
     background: #ffffff url(sarten.jpg) no-repeat fixed;
     background-size: cover;
   }
-/*h1 {
-    color: black;
+head {
+    background-color: rgba(32, 30, 30, 0.871);
 }
-h2 {
-    color: black;
-}
-p {
-    color: black;
-}
-a {
-    color: white;
-}*/
 /* selector por clase*/
 .oscuro {
     color: white;
